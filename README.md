@@ -16,6 +16,15 @@
 
 ## 4.Button按钮开发
 
+    1.新增component目录
+    2.增加Button文件
+        2.1增加Button文件
+        2.2增加Button的Test文件
+    3.完成Button组件
+        1.写声明
+        2.写props声明
+        3.
+
 
 ## 说明
     1.在其中会使用到scss的一些其他语法，优化组件
