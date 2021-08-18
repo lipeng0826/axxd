@@ -23,17 +23,14 @@
     3.完成Button组件
         1.写声明
         2.写props声明
-        3.
 
-## 5.增加storybook
+## 5.单元测试
+    1.jest
+    2.
+
+
+## 6.增加storybook
 
     1.npx sb init
         基于已有框架执行上面的命令，不支持在空项目上执行
     2.
-
-## 说明
-    1.在其中会使用到scss的一些其他语法，优化组件
-    2.在其中会使用到ts的一些语法，提高组件的健壮性，可维护性等
-
-文档地址:
-    [storybook](https://storybook.js.org/)

@@ -15,9 +15,12 @@ interface BaseButtonProps {
     children: React.ReactNode
 }
 
-const Button: React.FC<BaseButtonProps> = (props) => {
+type ButtonNatvieProps = React.ButtonHTMLAttributes<HTMLElement> & BaseButtonProps;
+type AnchorButtonProps = React.AnchorHTMLAttributes<HTMLElement> & BaseButtonProps;
+export type ButtonProps = Partial<ButtonNatvieProps | AnchorButtonProps>;
+const Button: React.FC<ButtonProps> = (props) => {
 
-    const { className, disabled, size, type, href, children } = props;
+    const { className, disabled, size, type, href, children, ...restProps } = props;
 
     // TODO: 合并class
     const classes = classNames('btn', className, {
@@ -28,12 +31,14 @@ const Button: React.FC<BaseButtonProps> = (props) => {
 
     if (type === 'link') {
         return <a
+            {...restProps}
             className={classes}
             href={href}>
             {children}
         </a>;
     } else {
         return <button
+            {...restProps}
             className={classes}
             disabled={disabled}>
             {children}
@@ -44,6 +49,6 @@ const Button: React.FC<BaseButtonProps> = (props) => {
 Button.defaultProps = {
     disabled: false,
     type: 'default'
-  }
+}
 
 export default Button;
