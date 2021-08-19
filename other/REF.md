@@ -11,6 +11,7 @@ TODO: 1.scss语法2.ts语法
    1. create react app 内置
 3. [reactTest](https://github.com/testing-library/react-testing-library)
    1. create react app 内置
+4. [模块化介绍](https://juejin.cn/post/6844903576309858318)
 --------------
 
 Test:
@@ -22,3 +23,10 @@ Test:
       2..test.js
       3..spec.js
 
+
+## 模块
+   1.amd
+   2.cmd
+   3.commonjs
+   4.umd（兼容amd+commonjs）
+   5.module
