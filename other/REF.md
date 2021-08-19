@@ -44,3 +44,7 @@ Test:
       1. ```js  npm link 包名```
    3. 如果不使用的话
       1. ```npm unlink  npm unlink 包名```
+
+## npm发版
+
+   
