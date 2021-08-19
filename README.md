@@ -33,4 +33,8 @@
 
     1.npx sb init
         基于已有框架执行上面的命令，不支持在空项目上执行
-    2.
+
+## 7.模块
+1. [npm link](https://docs.npmjs.com/cli/v6/commands/npm-link)
+2.  npm unlink
+3.  

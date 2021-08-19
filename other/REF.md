@@ -30,3 +30,11 @@ Test:
    3.commonjs
    4.umd（兼容amd+commonjs）
    5.module
+
+## npm link
+   1. 在当前包
+      1. ```npm link```
+   2. 在需要使用的项目
+      1. ```js  npm link 包名 ```
+   3. 如果不使用的话
+      1. ```npm unlink  npm unlink 包名```
