@@ -52,3 +52,7 @@ Test:
    1.使用tsc 打包成es6 module
    2.使用less 将css单独打包出来
    3.TODO: 分包方案
+
+## 发包
+   1.npm源切到npm
+   2.先查下有没有别人先注册的包名
