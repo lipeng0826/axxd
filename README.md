@@ -1,6 +1,6 @@
 # 组件库搭建
 
-## 1.使用create react app 创建项目
+## 1.使用 create react app 创建项目
 
 ## 2.样式解决方案
 
@@ -18,7 +18,7 @@
 
 ​ 2.约定的规范
 
-## 4.Button按钮开发
+## 4.Button 按钮开发
 
     1.新增component目录
     2.增加Button文件
@@ -33,7 +33,7 @@
     1.jest
     2.
 
-## 6.增加storybook
+## 6.增加 storybook
 
     1.npx sb init
         基于已有框架执行上面的命令，不支持在空项目上执行
@@ -42,5 +42,8 @@
 
 1. [npm link](https://docs.npmjs.com/cli/v6/commands/npm-link)
 2. npm unlink
+3. 打包 (tsc 打包 js, node-sass 转化 scss)
+4. 按需加载
 
-3.  
+## 8.发包
+    1.
