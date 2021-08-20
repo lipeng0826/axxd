@@ -1,7 +1,6 @@
 {
-  "name": "axxd",
+  "name": "diyd",
   "version": "0.1.0",
-  "private": true,
   "main": "lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
