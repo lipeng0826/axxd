@@ -58,3 +58,12 @@ Test: 1.组件，方便测试 2.函数式组件 3.单项数据流
 ## 组件库需求分析
 
 1.代码结构 2.样式解决方案 3.组件需求分析和编码 4.测试用例编写 5.代码打包输出和发布 6.CI/CD，文档生成
+
+
+## storybook 安装
+   1.npx sb init
+
+
+## 切换源
+   npm config set registry https://registry.npm.taobao.org
+   npm config set registry https://registry.npmjs.org/
