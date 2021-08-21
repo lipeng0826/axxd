@@ -63,7 +63,16 @@ Test: 1.组件，方便测试 2.函数式组件 3.单项数据流
 
 ## storybook 安装
 
-1.npx sb init
+    1. npx sb init
+    2. 配置 Decorator
+    3. 安装 info addon
+       yarn add @storybook/addon-info
+       yarn add @types/storybook__addon-info
+    4. 自动生成文档（react-docgen）
+       1. docgen是storybook默认带的
+       2. 安装react-docgen-typescript-loader,让这个插件支持ts
+          1. yarn add --dev react-docgen-typescript-loader
+       3. 
 
 ## 切换源
 
