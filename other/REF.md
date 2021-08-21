@@ -72,7 +72,7 @@ Test: 1.组件，方便测试 2.函数式组件 3.单项数据流
        1. docgen是storybook默认带的
        2. 安装react-docgen-typescript-loader,让这个插件支持ts
           1. yarn add --dev react-docgen-typescript-loader
-       3. 
+       3.
 
 ## 切换源
 
