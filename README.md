@@ -46,4 +46,5 @@
 4. 按需加载
 
 ## 8.发包
-    1.
+    1.npm login
+    2.npm publish
