@@ -16,7 +16,7 @@
 3. [reactTest](https://github.com/testing-library/react-testing-library)
    1. create react app 内置
 4. [模块化介绍](https://juejin.cn/post/6844903576309858318)
-5. [icon库](https://github.com/FortAwesome/react-fontawesome)
+5. [icon 库](https://github.com/FortAwesome/react-fontawesome)
    1. [使用文档](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
 6. [transition-group](https://github.com/reactjs/react-transition-group)
 
@@ -59,11 +59,11 @@ Test: 1.组件，方便测试 2.函数式组件 3.单项数据流
 
 1.代码结构 2.样式解决方案 3.组件需求分析和编码 4.测试用例编写 5.代码打包输出和发布 6.CI/CD，文档生成
 
-
 ## storybook 安装
-   1.npx sb init
 
+1.npx sb init
 
 ## 切换源
-   npm config set registry https://registry.npm.taobao.org
-   npm config set registry https://registry.npmjs.org/
+
+npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npmjs.org/
