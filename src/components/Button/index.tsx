@@ -8,6 +8,7 @@ export type Type = 'primary' | 'default' | 'danger' | 'link';
 
 interface BaseButtonProps {
     className?: string,
+    /* 禁用 */
     disabled?: boolean,
     size?: ButtonSize,
     href?: string,
@@ -18,6 +19,11 @@ interface BaseButtonProps {
 type ButtonNatvieProps = ButtonHTMLAttributes<HTMLElement> & BaseButtonProps;
 type AnchorButtonProps = AnchorHTMLAttributes<HTMLElement> & BaseButtonProps;
 export type ButtonProps = Partial<ButtonNatvieProps | AnchorButtonProps>;
+
+/**
+ * Button:......
+ */
+
 export const Button: FC<ButtonProps> = (props) => {
 
     const { className, disabled, size, type, href, children, ...restProps } = props;

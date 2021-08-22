@@ -37,12 +37,26 @@
 ## 第七章 Icon 库
 
     7.1. 使用react-fontawesome
-    7.2. 
+    7.2.
     7.5 React Transition
 
 ## 第八章 storybook
 
     8.1 介绍
     8.2 安装
+    ... docGen
+    ... jsDoc
 
 ## 第九章 表单
+
+## 第十章 Upload 组件
+
+## 第十一章 打包
+
+    1.模块化打包历史
+    2.webpack等打包工具运行方式
+    3.使用es6 modules打包代码
+
+## 第十二章 CI/CD
+
+## 第十三章 总结
