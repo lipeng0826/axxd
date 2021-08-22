@@ -53,9 +53,12 @@
 
 ## 第十一章 打包
 
-    1.模块化打包历史
-    2.webpack等打包工具运行方式
-    3.使用es6 modules打包代码
+    11.1. 模块化打包历史
+    11.2. webpack等打包工具运行方式
+    11.3. 使用es6 modules打包代码
+    11.4 - 11.6.tsc 打包 tsx
+    11.7. node-sass 打包 sass
+    11.7. npm link
 
 ## 第十二章 CI/CD
 
