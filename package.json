@@ -2,6 +2,8 @@
   "name": "diyd",
   "version": "0.1.0",
   "main": "lib/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -25,6 +27,9 @@
     "typescript": "4.2.4",
     "web-vitals": "^1.0.1"
   },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "start_p": "react-app-rewired start",
