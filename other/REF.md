@@ -21,6 +21,9 @@
 5. [icon 库](https://github.com/FortAwesome/react-fontawesome)
    1. [使用文档](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
 6. [transition-group](https://github.com/reactjs/react-transition-group)
+7. [eslint](https://eslint.bootcss.com/)
+8. [husky](https://typicode.github.io/husky/#/)
+9. [travis-ci](https://www.travis-ci.com/)
 
 ---
 
@@ -78,3 +81,8 @@ Test: 1.组件，方便测试 2.函数式组件 3.单项数据流
 
 npm config set registry https://registry.npm.taobao.org
 npm config set registry https://registry.npmjs.org/
+
+## CI/CD
+
+   CI: 持续将代码集成到master
+   CD: 持续交付，持续部署

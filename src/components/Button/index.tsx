@@ -25,7 +25,6 @@ export type ButtonProps = Partial<ButtonNatvieProps | AnchorButtonProps>;
  */
 
 export const Button: FC<ButtonProps> = (props) => {
-
     const { className, disabled, size, type, href, children, ...restProps } = props;
 
     // TODO: 合并class
