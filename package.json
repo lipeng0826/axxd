@@ -34,9 +34,6 @@
   ],
   "scripts": {
     "start": "react-scripts start",
-    "start_p": "react-app-rewired start",
-    "build_p": "react-app-rewired build",
-    "build_e": "npm run build-ts && npm run build-css",
     "build": "npm run build-ts && npm run build-css",
     "build-ts": "tsc -p tsconfig.build.json",
     "build-css": "node-sass ./src/styles/index.scss ./dist/index.css",
