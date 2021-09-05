@@ -10,7 +10,7 @@
     easy:
         1.添加commit校验
     hard:
-        1.使用dumi替代storybook
+        1.使用dumi替代storybook(或者antd使用的bisheng)
         2.使用webpack替代 tsc打包 导出模块代码优化
         3.使用 umd格式替代es6 modules
         4.组件按需加载
